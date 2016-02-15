@@ -13,6 +13,8 @@
 		11FE167A1C71D726005F7C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FE16791C71D726005F7C7F /* Assets.xcassets */; };
 		11FE167D1C71D726005F7C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FE167B1C71D726005F7C7F /* LaunchScreen.storyboard */; };
 		11FE16881C71D726005F7C7F /* OCWebActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16871C71D726005F7C7F /* OCWebActionTests.swift */; };
+		11FE16941C71DADF005F7C7F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16921C71DADF005F7C7F /* README.md */; };
+		11FE16951C71DADF005F7C7F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 11FE16931C71DADF005F7C7F /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		11FE16831C71D726005F7C7F /* OCWebActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCWebActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FE16871C71D726005F7C7F /* OCWebActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCWebActionTests.swift; sourceTree = "<group>"; };
 		11FE16891C71D726005F7C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FE16921C71DADF005F7C7F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = OCWebAction/README.md; sourceTree = "<group>"; };
+		11FE16931C71DADF005F7C7F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = OCWebAction/LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				11FE16711C71D726005F7C7F /* OCWebAction */,
 				11FE16861C71D726005F7C7F /* OCWebActionTests */,
 				11FE16701C71D726005F7C7F /* Products */,
+				11FE16921C71DADF005F7C7F /* README.md */,
+				11FE16931C71DADF005F7C7F /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +185,7 @@
 			files = (
 				11FE167D1C71D726005F7C7F /* LaunchScreen.storyboard in Resources */,
 				11FE167A1C71D726005F7C7F /* Assets.xcassets in Resources */,
+				11FE16951C71DADF005F7C7F /* LICENSE in Resources */,
 				11FE16781C71D726005F7C7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FE16941C71DADF005F7C7F /* README.md in Sources */,
 				11FE16751C71D726005F7C7F /* ViewController.swift in Sources */,
 				11FE16731C71D726005F7C7F /* AppDelegate.swift in Sources */,
 			);
