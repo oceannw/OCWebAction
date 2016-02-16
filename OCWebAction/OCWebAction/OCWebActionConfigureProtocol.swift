@@ -38,7 +38,7 @@ class OCDefaultWebActionConfigure : OCWebActionConfigureProtocol{
     var url:String? = nil
     var parameters:[String:String]? = nil
     var headerFields:[String:String]? = nil
-    var httpMethod:OCHTTPMethod =  OCHTTPMethod.Post
+    var httpMethod:OCHTTPMethod = OCHTTPMethod.Post
     var encodeInt:UInt = NSUTF8StringEncoding
     var multipartFormData:OCMultipartFormDataProtocol? = nil
     var resultType:OCWebActionResultType = .JSON

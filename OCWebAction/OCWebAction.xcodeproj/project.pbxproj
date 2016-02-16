@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		119FB52D1C720819009DC4A0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 119FB52C1C720819009DC4A0 /* README.md */; };
 		119FB52F1C721113009DC4A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FB52E1C721113009DC4A0 /* ViewController.swift */; };
 		11FE16731C71D726005F7C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16721C71D726005F7C7F /* AppDelegate.swift */; };
 		11FE16781C71D726005F7C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FE16761C71D726005F7C7F /* Main.storyboard */; };
 		11FE167A1C71D726005F7C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FE16791C71D726005F7C7F /* Assets.xcassets */; };
 		11FE167D1C71D726005F7C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FE167B1C71D726005F7C7F /* LaunchScreen.storyboard */; };
 		11FE16881C71D726005F7C7F /* OCWebActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16871C71D726005F7C7F /* OCWebActionTests.swift */; };
-		11FE16951C71DADF005F7C7F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 11FE16931C71DADF005F7C7F /* LICENSE */; };
 		11FE16B41C71DD7B005F7C7F /* OCHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE169C1C71DD7B005F7C7F /* OCHTTPMethod.swift */; };
 		11FE16B61C71DD7B005F7C7F /* OCMultipartFormDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE169E1C71DD7B005F7C7F /* OCMultipartFormDataProtocol.swift */; };
 		11FE16BC1C71DD7B005F7C7F /* OCTransferableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16A41C71DD7B005F7C7F /* OCTransferableProtocol.swift */; };
@@ -23,8 +21,6 @@
 		11FE16C01C71DD7B005F7C7F /* OCWebConnectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16A81C71DD7B005F7C7F /* OCWebConnectionProtocol.swift */; };
 		11FE16C11C71DD7B005F7C7F /* OCWebError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16A91C71DD7B005F7C7F /* OCWebError.swift */; };
 		11FE16C21C71DD7B005F7C7F /* OCWebResultHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16AA1C71DD7B005F7C7F /* OCWebResultHandlerProtocol.swift */; };
-		11FE16C31C71DD7B005F7C7F /* OCWebResultJSonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16AB1C71DD7B005F7C7F /* OCWebResultJSonHandler.swift */; };
-		11FE16C51C71DD7B005F7C7F /* OCWebResultXMLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16AD1C71DD7B005F7C7F /* OCWebResultXMLHandler.swift */; };
 		11FE16C81C71E967005F7C7F /* OCWebActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE16C71C71E967005F7C7F /* OCWebActionManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		119FB52C1C720819009DC4A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = OCWebAction/README.md; sourceTree = "<group>"; };
 		119FB52E1C721113009DC4A0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11FE166F1C71D726005F7C7F /* OCWebAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCWebAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FE16721C71D726005F7C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +45,6 @@
 		11FE16831C71D726005F7C7F /* OCWebActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCWebActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FE16871C71D726005F7C7F /* OCWebActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCWebActionTests.swift; sourceTree = "<group>"; };
 		11FE16891C71D726005F7C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11FE16931C71DADF005F7C7F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = OCWebAction/LICENSE; sourceTree = "<group>"; };
 		11FE169C1C71DD7B005F7C7F /* OCHTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCHTTPMethod.swift; sourceTree = "<group>"; };
 		11FE169E1C71DD7B005F7C7F /* OCMultipartFormDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCMultipartFormDataProtocol.swift; sourceTree = "<group>"; };
 		11FE16A41C71DD7B005F7C7F /* OCTransferableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCTransferableProtocol.swift; sourceTree = "<group>"; };
@@ -59,8 +53,6 @@
 		11FE16A81C71DD7B005F7C7F /* OCWebConnectionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCWebConnectionProtocol.swift; sourceTree = "<group>"; };
 		11FE16A91C71DD7B005F7C7F /* OCWebError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCWebError.swift; sourceTree = "<group>"; };
 		11FE16AA1C71DD7B005F7C7F /* OCWebResultHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCWebResultHandlerProtocol.swift; sourceTree = "<group>"; };
-		11FE16AB1C71DD7B005F7C7F /* OCWebResultJSonHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCWebResultJSonHandler.swift; sourceTree = "<group>"; };
-		11FE16AD1C71DD7B005F7C7F /* OCWebResultXMLHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCWebResultXMLHandler.swift; sourceTree = "<group>"; };
 		11FE16C71C71E967005F7C7F /* OCWebActionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCWebActionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,8 +80,6 @@
 				11FE16711C71D726005F7C7F /* OCWebAction */,
 				11FE16861C71D726005F7C7F /* OCWebActionTests */,
 				11FE16701C71D726005F7C7F /* Products */,
-				11FE16931C71DADF005F7C7F /* LICENSE */,
-				119FB52C1C720819009DC4A0 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,15 +120,13 @@
 			children = (
 				11FE16C71C71E967005F7C7F /* OCWebActionManager.swift */,
 				11FE16A41C71DD7B005F7C7F /* OCTransferableProtocol.swift */,
-				11FE16A91C71DD7B005F7C7F /* OCWebError.swift */,
-				11FE169C1C71DD7B005F7C7F /* OCHTTPMethod.swift */,
 				11FE169E1C71DD7B005F7C7F /* OCMultipartFormDataProtocol.swift */,
 				11FE16A61C71DD7B005F7C7F /* OCWebActionConfigureProtocol.swift */,
 				11FE16A71C71DD7B005F7C7F /* OCWebActionProtocol.swift */,
 				11FE16A81C71DD7B005F7C7F /* OCWebConnectionProtocol.swift */,
 				11FE16AA1C71DD7B005F7C7F /* OCWebResultHandlerProtocol.swift */,
-				11FE16AB1C71DD7B005F7C7F /* OCWebResultJSonHandler.swift */,
-				11FE16AD1C71DD7B005F7C7F /* OCWebResultXMLHandler.swift */,
+				11FE16A91C71DD7B005F7C7F /* OCWebError.swift */,
+				11FE169C1C71DD7B005F7C7F /* OCHTTPMethod.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -226,7 +214,6 @@
 			files = (
 				11FE167D1C71D726005F7C7F /* LaunchScreen.storyboard in Resources */,
 				11FE167A1C71D726005F7C7F /* Assets.xcassets in Resources */,
-				11FE16951C71DADF005F7C7F /* LICENSE in Resources */,
 				11FE16781C71D726005F7C7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,15 +234,12 @@
 			files = (
 				11FE16C01C71DD7B005F7C7F /* OCWebConnectionProtocol.swift in Sources */,
 				11FE16BF1C71DD7B005F7C7F /* OCWebActionProtocol.swift in Sources */,
-				11FE16C31C71DD7B005F7C7F /* OCWebResultJSonHandler.swift in Sources */,
 				11FE16C21C71DD7B005F7C7F /* OCWebResultHandlerProtocol.swift in Sources */,
 				119FB52F1C721113009DC4A0 /* ViewController.swift in Sources */,
-				11FE16C51C71DD7B005F7C7F /* OCWebResultXMLHandler.swift in Sources */,
 				11FE16B61C71DD7B005F7C7F /* OCMultipartFormDataProtocol.swift in Sources */,
 				11FE16C81C71E967005F7C7F /* OCWebActionManager.swift in Sources */,
 				11FE16BE1C71DD7B005F7C7F /* OCWebActionConfigureProtocol.swift in Sources */,
 				11FE16C11C71DD7B005F7C7F /* OCWebError.swift in Sources */,
-				119FB52D1C720819009DC4A0 /* README.md in Sources */,
 				11FE16B41C71DD7B005F7C7F /* OCHTTPMethod.swift in Sources */,
 				11FE16BC1C71DD7B005F7C7F /* OCTransferableProtocol.swift in Sources */,
 				11FE16731C71D726005F7C7F /* AppDelegate.swift in Sources */,
