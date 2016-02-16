@@ -39,8 +39,8 @@ After configure , you can use it easy.
         configure.parameters = [String:String]() // Get or Post Parameters
         let action = OCWebActionManager.shareManager.getSynchronousAction() //if use the asynchronous action, you can user the OCWebActionManager.shareManager.getAsynchronousAction()
         action.action(configure, success: { (result) -> Void in
-            \\Success 
+            //Success 
             }) { (error) -> Void in
-                \\Failure
+                //Failure
         }
 ```
