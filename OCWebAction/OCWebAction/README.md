@@ -2,9 +2,8 @@
 
 OCWebAction is a simple way to package the NSURLSession and handler the data(json、xml and so on ) to the entity class
 
-#Usage
-
-1. Use the OCTransferableProtocol in your entity class.
+#Implement Entity Class
+Use the OCTransferableProtocol in your entity class.
 ```swift
 class YourClass:OCTransferableProtocol{
 }
@@ -17,7 +16,8 @@ class YourClass:OCTransferableListProtocol {
 }
 ```
 
-2. Implement the OCWebActionConfigureProtocol or use the OCDefaultWebActionConfigure to configure the HTTP setting and transfer the return data to the OCTransferableProtocol entity class.
+#Configure 
+Implement the OCWebActionConfigureProtocol or use the OCDefaultWebActionConfigure to configure the HTTP setting and transfer the return data to the OCTransferableProtocol entity class.
 Default,you just override the OCDefaultWebActionConfigure:
 ```swift
 class YourConfigureClass : OCDefaultWebActionConfigure{
@@ -26,8 +26,8 @@ class YourConfigureClass : OCDefaultWebActionConfigure{
     }
 }
 ```
-
-3. When finish above configure , you can use it easy.
+#Usage
+When finish above configure , you can use it easy.
 ```swift
         let configure = YourConfigureClass()
         configure.url = Target URL
