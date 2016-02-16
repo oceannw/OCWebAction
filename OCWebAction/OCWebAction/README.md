@@ -3,9 +3,9 @@
 OCWebAction is a simple way to package the NSURLSession and handler the data(json、xml and so on) to the entity class
 
 #Manager
-User the Manager `OCWebActionManager`,the funcion include:
+User the Manager `OCWebActionManager`,the funcion include:      
 >1. Get the Action(implement OCWebActionProtocol) with Synchronous or Asynchronous.
->2. Enable the logging(NSLog) when running
+>2. Enable the logging
 
 #Implement Entity Class
 The entity class is which you get the data from Http Server and transfer to.Use the OCTransferableProtocol in your entity class.
@@ -22,7 +22,7 @@ class YourClass:OCTransferableListProtocol {
 ```
 
 #Configure 
-Implement the OCWebActionConfigureProtocol or use the OCDefaultWebActionConfigure to configure the HTTP setting and transfer the return data to the OCTransferableProtocol entity class.
+Implement the OCWebActionConfigureProtocol or use the OCDefaultWebActionConfigure to configure the HTTP setting and transfer the return data to the OCTransferableProtocol entity class.      
 Default,you just override the OCDefaultWebActionConfigure:
 ```swift
 class YourConfigureClass : OCDefaultWebActionConfigure{
